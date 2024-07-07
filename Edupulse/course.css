@@ -1,0 +1,122 @@
+div{
+    background-color: white;
+    display: inline-block;
+}
+#uo{
+    margin-left: 50px;
+    animation: slideFromLeft 1s ease forwards;
+}
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#about{
+    
+    margin-left: 660px;
+}
+
+
+.ki{
+   
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+button{
+    margin-left: 90px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+    background-color:rgb(7, 7, 208);
+    font-weight: bold;
+    animation: slideFromRight 1s ease forwards;
+}
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+h1{
+    color:rgb(3, 94, 94);
+    font-weight: bold;
+    font-size: 50px;
+    animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#cre{
+    clip-path: circle(50%);
+}
+#add1{
+    background:linear-gradient(rgb(7, 209, 141),white);
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color:rgb(7, 209, 141);
+    margin-left: 100px;
+    color:brown;
+
+}
+#add1:hover {
+    background:linear-gradient(rgb(2, 155, 104),white);
+    transform: scale(1.05);
+    transition: all 1s ease-in-out; 
+}
+#add2{
+    background:linear-gradient(rgb(10, 161, 211),white);
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 23px;
+    border-color: rgb(10, 161, 211);
+    margin-left: 10px;
+    color:brown;
+}
+#add2:hover {
+    background:linear-gradient(rgb(9, 130, 171),white);
+    transform: scale(1.05);
+    transition: all 1s ease-in-out; 
+}
+#add3{
+    background:linear-gradient(rgb(5, 5, 117),white);
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 32px;
+    border-color:rgb(5, 5, 117);
+    margin-left: 10px;
+    color:brown;
+}
+#add3:hover {
+    background:linear-gradient(rgb(9, 9, 83),white);
+    transform: scale(1.05);
+    transition: all 1s ease-in-out; 
+}
+div{
+    text-align: center;
+    font-size: large;
+    display: inline-block; 
+}
